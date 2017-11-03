@@ -1,0 +1,29 @@
+{
+  "name": "professional-portfolio-page",
+  "version": "1.0.0",
+  "description": "A site to show of my work",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaVashti/professional-portfolio-page.git"
+  },
+  "author": "DiV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DianaVashti/professional-portfolio-page/issues"
+  },
+  "homepage": "https://github.com/DianaVashti/professional-portfolio-page#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "pug": "^2.0.0-rc.4",
+    "serve-favicon": "^2.4.5"
+  }
+}
