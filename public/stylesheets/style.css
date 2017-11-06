@@ -1,5 +1,15 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#copytext {
+  height: 150px;
+  width: 162px;
+  background-color: pink;
+}
+
+.contacts {
+  margin-top: 155px;
+}
+
 .nav-button {
   border-radius: 8px;
   background-color: #CEC3C1;
@@ -23,9 +33,14 @@
   height: 48px;
 }
 
+.bio {
+  padding-top: 9rem;
+}
+
 .black-bg {
   background-color: #240115;
   color: #87F5FB;
+  height: 70vh;
 }
 
 a.hero-heading {
@@ -80,6 +95,11 @@ a.hero-heading {
 }
 .family-values {
   background-color: #87F5FB;
+  color: #240115;
+  height: 400px;
+}
+.family-values2 {
+  margin-bottom: 55px;
   color: #240115;
   height: 400px;
 }
@@ -239,8 +259,13 @@ a.hero-heading {
     height: 420px;
   }
   .family-values{
-    padding-top: 135px;
+    padding-top: 48rem;
     height: 330px;
+  }
+  .family-values2{
+    padding-top: 33rem;
+    height: 430px;
+    margin-bottom: 55px;
   }
   .hero-heading {
     font-size: 3.0rem;
@@ -265,5 +290,17 @@ a.hero-heading {
     height: 533px;
     width: 400px;
     margin-right: 35px;
+  }
+  .learnersguild {
+    height: 533px;
+    width: 400px;
+    margin-right: 35px;
+    border: 1px solid #2F131E;
+  }
+  .portfolio-sji {
+    padding-top: 2rem;
+  }
+  .portfolio-learners-guild {
+
   }
 }
